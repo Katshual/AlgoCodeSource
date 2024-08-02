@@ -1,13 +1,28 @@
-function conversion(degCel) {
 
+function conversion(degCel) {
+    const farenheit=(degCel * (9/5)) + 32;
+   
+if (typeof degCel==='number') {
+    
+    return farenheit
+        
+} else { 
+    
+    return 'Données en entrée non correctes!'
+    
+    
+}
 
 }
 
 console.log(conversion(50));
+console.log(conversion('50'));
 
 
+        
+    
 
-// ----------------- ÉNONCÉ -----------------
+ //----------- ÉNONCÉ -----------------
 
 // Créer un algorithme qui sert à convertir des degrés Celsius
 // en degrés Fahrenheit.
