@@ -1,4 +1,11 @@
 function retourneLaPhrase(str) {
+    let stringSplit=str.split("")
+    //console.log(stringSplit);
+    let arrayReverse=stringSplit.reverse()
+    //console.log(arrayReverse)
+    let arrayJoin=arrayReverse.join("")
+    //console.log(arrayJoin);
+    return arrayJoin
 
 }
 
