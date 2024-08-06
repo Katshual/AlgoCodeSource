@@ -1,4 +1,4 @@
-export function factoriser(num) {
+0export function factoriser(num) {
     return num < 2 ?1 : num*factoriser(num-1)
 
 
