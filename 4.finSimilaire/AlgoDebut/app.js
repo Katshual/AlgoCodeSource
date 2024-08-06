@@ -1,4 +1,9 @@
-function finSimilaire(str, fin) {
+export function finSimilaire(str, fin) {
+    if (str.slice(str.length-2)===fin) {
+        return "La fin est similaire"
+    } else {
+        return "La fin est différente"
+    }
 
 
 }
